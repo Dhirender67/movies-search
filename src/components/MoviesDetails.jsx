@@ -78,7 +78,7 @@ function MoviesDetails({ selected, onCloseHandel, onAddToWatched, watched }) {
     onAddToWatched(watchedData);
     onCloseHandel();
   }
-  // Escape with Back button and CleanupEvent listners
+  // Escape with Back button and cleanup event listners
   useEffect(
     function () {
       function escapCallBack(e) {
