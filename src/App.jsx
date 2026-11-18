@@ -55,7 +55,7 @@ const tempWatchedData = [
   },
 ];
 
-const KEY = "96b0c5b9";
+const KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
   const [movies, setMovies] = useState([]);
